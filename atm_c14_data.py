@@ -3,7 +3,7 @@ from scipy import interpolate
 import pandas as pd
 
 tlag = 1.0
-c14_data_file = '/home/fabian/ownCloud/C14/c14_data/c14_csv_to_pandas/spalding_2013_data.pkl'
+c14_data_file = './spalding_2013_data.pkl'
 
 c14_data = pd.read_pickle(c14_data_file)
 

@@ -2,7 +2,7 @@
 import pandas as pd
 
  
-c14_individual_data = pd.read_excel('/home/fabian/ownCloud/C14/c14_individual_data/mmc1.xlsx', na_values = ['ND', 'NA'])
+c14_individual_data = pd.read_excel('./mmc1.xlsx', na_values = ['ND', 'NA'])
 
 
 c14_individual_data = c14_individual_data[['type', 'pub_id', 'Date of Birth', 'Date of Death', u'FACS purity corrected Δ14C', u'carbon mass according to measured DNA']]
